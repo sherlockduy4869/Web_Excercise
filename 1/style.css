@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-image{
+    width: 60%;
+}
+
+.menu-bar{
+    left: -200px;
+}
+
+#menubar{
+    margin-right: 70px;
+    left: -50px;
+}
+
+.icons{
+    margin: 0 12px;
+}
+
+.icons i{
+    margin-right: 10px;
+}
+
+.big-image{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.big-image img{
+    width: 100%;
+    height: auto;
+}
+
+.search-area{
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    right: 0%;
+}
+
+.search-area i{
+    border: none;
+}
+
+.search-area input{
+    border: none;
+}
+
+/*HOME-PRODUCT AREA*/
+.product-area{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.product-area .row{
+
+    margin: auto;
+    width: 95%;
+    text-align: center;
+}
+
+.title{
+    font-size: 24px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-col{
+    flex-basis: 24%;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.product-col img{
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.product-col i{
+    border: 2px solid yellow;
+    padding: 12px;
+    border-radius: 10%;
+}
+
+.phone-number p{
+    display: inline-block;
+    font-size: 24px;
+}
+
+.phone-number i{
+    color: red;
+    font-size: 24px;
+}
+
+#dangky input{
+    width: 60%;
+    height: 50px;
+}
+
+#dangky button{
+    display: inline-block;
+    height: 50px;
+}
+
+.list-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-icons i{
+    color: blue;
+    font-size: 34px;
+}

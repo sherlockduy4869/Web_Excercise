@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #f84f2e;
+}
+
+.header img{
+    width: 60%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .top-left span{
+    color: #fff;
+    font-size: 12px;
+}
+
+.header .top-right span{
+    color: #fff;
+    font-size: 12px;
+}
+
+.header .middle div{
+    display: inline-block;
+}
+
+.header div input{
+    width: 700px;
+    border: none;
+    outline: none;
+}
+
+.search{
+    background-color: white;
+    padding: 2px;
+}
+
+.header .search button{
+    display: inline-block;
+} 
+
+.search button{
+    display: inline-block;
+    padding: 7px 4px;
+    width: 65px;
+    border: none;
+    background-color: #f84f2e;
+}
+
+.search button i{
+    color: white;
+}
+
+.icons{
+    margin-left: 60px;
+}
+
+.icons i{
+    color: white;
+    font-size: 24px;
+}
+
+.bottom{
+    margin-left: 255px;
+}
+
+.bottom ul li{
+    margin-left: 5px;
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+}
+
+.main{
+    text-align: center;
+}
+
+.title{
+    padding: 25px;
+    font-size: 24px;
+}
+
+.item-list{
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #8c8c8c;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-list .item {
+    border-right: 1px solid #8c8c8c;
+    height: 200px;
+    width: calc(100% / 10);
+    padding-top: 30px;
+}
+
+.item-list .item h5{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.item-list .item img{
+    width: 80%;
+    border: none;
+}
