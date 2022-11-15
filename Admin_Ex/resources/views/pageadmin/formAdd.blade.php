@@ -6,8 +6,7 @@
     <div class="pull-left">							
         <h2>Add product</h2>							
     </div>							
-    <div class="space50">&nbsp;</div>							
-    @include('error')							
+    <div class="space50">&nbsp;</div>													
     <div class="container">							
         <form action="admin-add-form" method="post" enctype="multipart/form-data">							
             @csrf							

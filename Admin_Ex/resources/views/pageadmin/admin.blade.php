@@ -15,7 +15,7 @@
             <h2>List</h2>									
           </div>									
           <div class="pull-right">									
-            <a href="{{route('export')}}" class="btn btn-primary">									
+            <a href="" class="btn btn-primary">									
               Xuất ra PDF									
             </a>									
           </div>									

@@ -85,15 +85,6 @@ class PageController extends Controller
         }
     }
 
-    public function getAdminAdd(){
-        return view('pageadmin.formAdd');
-    }
-
-    public function getAdminEdit($id){
-        $product = Products::find($id);
-        return view('pageadmin.formEdit')->with('product', $product);
-    }
-
     public function postCheckOut(Request $request){
         $cart = Session::get('cart');
         $customer = new Customer;
@@ -144,6 +135,17 @@ class PageController extends Controller
             }
         }
     }
+
+    public function getAdminAdd(){
+        return view('pageadmin.formAdd');
+    }
+
+    public function getAdminEdit($id){
+        $product = Products::find($id);
+        return view('pageadmin.formEdit')->with('product', $product);
+    }
+
+    
 
     public function getIndexAdmin() {
         $products = Products::all();
